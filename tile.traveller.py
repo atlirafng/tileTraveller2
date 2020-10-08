@@ -1,3 +1,4 @@
+'''
 # Constants
 NORTH = 'n'
 EAST = 'e'
@@ -77,3 +78,6 @@ while not victory:
     else:
         valid_directions = find_directions(col, row)
         print_directions(valid_directions)
+        
+'''
+print("hhhhh")

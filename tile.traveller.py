@@ -4,7 +4,11 @@ EAST = 'e'
 SOUTH = 's'
 WEST = 'w'
 def move(direction, col, row):
+<<<<<<< HEAD
     ''' Returns updated col, row given the direction, b-dog-in-the-house'''
+=======
+    ''' Returns updated col, row given the direction , ron wesley'''
+>>>>>>> eea83f47658ad7fa677fcaa8786b7d11cc6b5792
     if direction == NORTH:
         row += 1
     elif direction == SOUTH:
@@ -76,4 +80,9 @@ while not victory:
         print("Victory!")
     else:
         valid_directions = find_directions(col, row)
+<<<<<<< HEAD
         print_directions(valid_directions)
+=======
+        print_directions(valid_directions)
+        
+>>>>>>> eea83f47658ad7fa677fcaa8786b7d11cc6b5792

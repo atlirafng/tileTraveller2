@@ -1,11 +1,10 @@
-'''
 # Constants
 NORTH = 'n'
 EAST = 'e'
 SOUTH = 's'
 WEST = 'w'
 def move(direction, col, row):
-    ''' Returns updated col, row given the direction, atlalele'''
+    ''' Returns updated col, row given the direction , ron wesley'''
     if direction == NORTH:
         row += 1
     elif direction == SOUTH:
@@ -79,5 +78,3 @@ while not victory:
         valid_directions = find_directions(col, row)
         print_directions(valid_directions)
         
-'''
-print("hhhhh")
